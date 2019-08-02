@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92e787b6-66da-4edd-810d-4a019f2c2015" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/mel_project/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mel_project/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Mel_Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Mel_Project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mel_project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mel_project/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/mel_project/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/frontend/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/mel_project/frontend/src/components/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/frontend/src/components/Employees/Employees.js" beforeDir="false" afterPath="$PROJECT_DIR$/mel_project/frontend/src/components/Employees/Employees.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/frontend/src/components/Employees/Form.js" beforeDir="false" afterPath="$PROJECT_DIR$/mel_project/frontend/src/components/Employees/Form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/frontend/static/frontend/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/mel_project/frontend/static/frontend/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -15,12 +23,45 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/package.json">
+        <entry file="file://$PROJECT_DIR$/mel_project/frontend/src/components/Employees/Form.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+            <state relative-caret-position="172">
+              <caret line="38" column="41" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
+              <folding>
+                <element signature="e#0#51#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mel_project/frontend/src/actions/employees.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mel_project/frontend/src/reducers/Employees.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="62" selection-start-line="21" selection-start-column="62" selection-end-line="21" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mel_project/frontend/src/actions/types.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -36,6 +77,14 @@
         <option value="$PROJECT_DIR$/mel_project/.babelrc" />
         <option value="$PROJECT_DIR$/webpack.config.js" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/mel_project/frontend/src/store.js" />
+        <option value="$PROJECT_DIR$/mel_project/frontend/src/components/App.js" />
+        <option value="$PROJECT_DIR$/mel_project/frontend/src/reducers/index.js" />
+        <option value="$PROJECT_DIR$/mel_project/frontend/src/components/Employees/Employees.js" />
+        <option value="$PROJECT_DIR$/mel_project/frontend/src/actions/types.js" />
+        <option value="$PROJECT_DIR$/mel_project/frontend/src/reducers/Employees.js" />
+        <option value="$PROJECT_DIR$/mel_project/frontend/src/actions/employees.js" />
+        <option value="$PROJECT_DIR$/mel_project/frontend/src/components/Employees/Form.js" />
       </list>
     </option>
   </component>
@@ -72,6 +121,52 @@
               <item name="Mel_Project" type="462c0819:PsiDirectoryNode" />
               <item name="mel_project" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Mel_Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mel_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="mel_project" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Mel_Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mel_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="mel_project" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Mel_Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mel_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="mel_project" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="actions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Mel_Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mel_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="mel_project" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Mel_Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mel_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="mel_project" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Employees" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Mel_Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mel_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="mel_project" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="reducers" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -79,6 +174,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -108,16 +204,18 @@
       <updated>1564205532847</updated>
       <workItem from="1564205537977" duration="19000" />
       <workItem from="1564208878581" duration="1229000" />
+      <workItem from="1564721801278" duration="6777000" />
+      <workItem from="1564729688922" duration="3617000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1248000" />
+    <option name="totallyTimeSpent" value="11642000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1513" height="973" extended-state="6" />
+    <frame x="-7" y="-7" width="1513" height="973" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24983074" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25669184" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -131,10 +229,16 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32938388" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="R Graphics" order="3" />
+      <window_info anchor="right" id="R Packages" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="SciView" order="6" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,10 +266,100 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/mel_project/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+        <state relative-caret-position="527">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mel_project/frontend/src/store.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#0#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mel_project/frontend/src/reducers/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mel_project/frontend/src/components/Employees/Employees.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mel_project/frontend/src/components/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mel_project/frontend/src/components/Employees/Dashboard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mel_project/frontend/src/actions/types.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mel_project/frontend/src/reducers/Employees.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="62" selection-start-line="21" selection-start-column="62" selection-end-line="21" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mel_project/frontend/src/actions/employees.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mel_project/frontend/src/components/Employees/Form.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="38" column="41" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
