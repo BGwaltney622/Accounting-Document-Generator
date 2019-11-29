@@ -37,6 +37,18 @@ export class Form extends Component {
             sp_per: spPer,
             tv_per: tvPer};
         this.props.addEmployee(employee);
+        this.setState({
+            firstName: '',
+            lastName: '',
+            salary: '',
+            asnPer: '',
+            twentyPer: '',
+            fdnPer: '',
+            svcPer: '',
+            ucdPer: '',
+            spPer: '',
+            tvPer: '',
+        })
     };
 
     render() {

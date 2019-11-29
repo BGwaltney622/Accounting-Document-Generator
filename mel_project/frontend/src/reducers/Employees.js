@@ -1,8 +1,8 @@
-import { GET_EMPLOYEES, DELETE_EMPLOYEE, ADD_EMPLOYEE } from '../actions/types.js';
+import { GET_EMPLOYEES, DELETE_EMPLOYEE, ADD_EMPLOYEE } from '../actions/types';
 
 const initialState = {
     employees: []
-}
+};
 
 export default function(state = initialState, action) {
     switch(action.type) {

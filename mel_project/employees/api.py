@@ -1,4 +1,4 @@
-from employees.models import Employee
+from .models import Employee
 from rest_framework import viewsets, permissions
 from .Serializers import EmployeeSerializer
 
@@ -10,3 +10,8 @@ class EmployeeViewset(viewsets.ModelViewSet):
         permissions.AllowAny
     ]
     serializer_class = EmployeeSerializer
+
+
+
+
+
