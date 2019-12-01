@@ -26,7 +26,8 @@ export class Form extends Component {
     onSubmit = e => {
         e.preventDefault();
         const{firstName, lastName, salary, asnPer, twentyPer, fdnPer, svcPer, ucdPer, spPer, tvPer} = this.state;
-        const employee = {first_name: firstName,
+        const employee = {
+            first_name: firstName,
             last_name: lastName,
             salary: salary,
             asn_per: asnPer,
@@ -35,7 +36,8 @@ export class Form extends Component {
             svc_per: svcPer,
             ucd_per: ucdPer,
             sp_per: spPer,
-            tv_per: tvPer};
+            tv_per: tvPer
+        };
         this.props.addEmployee(employee);
         this.setState({
             firstName: '',

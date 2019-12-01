@@ -22,10 +22,18 @@ export class Alerts extends Component {
             if(error.msg.ucd_per) alert.error(`UCD %: ${error.msg.ucd_per.join()}`);
             if(error.msg.sp_per) alert.error(`SP %: ${error.msg.sp_per.join()}`);
             if(error.msg.tv_per) alert.error(`TV %: ${error.msg.tv_per.join()}`);
+            if(error.msg.non_field_errors) alert.error(error.msg.non_field_errors.join());
+            if(error.msg.username) alert.error(error.msg.username.join());
+            if(error.msg.email) alert.error(error.msg.email.join());
+
+
         }
         if (message !== prevProps.message) {
             if (message.employeeDeleted) alert.success(message.employeeDeleted);
             if (message.employeeAdded) alert.success(message.employeeAdded);
+            if (message.passwordsNotMatch) alert.error(message.passwordsNotMatch);
+
+
         }
     }
 

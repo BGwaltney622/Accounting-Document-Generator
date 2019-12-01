@@ -1,24 +1,25 @@
 import axios from 'axios';
 import { GET_EMPLOYEES, DELETE_EMPLOYEE, ADD_EMPLOYEE, GET_ERRORS } from "./types";
-import { createMessage } from "./messages";
+import { createMessage, returnErrors } from "./messages";
+import { tokenConfig } from "./auth";
 
 
 //GET EMPLOYEES
-export const getEmployees = () => dispatch => {
+export const getEmployees = () => (dispatch, getState) => {
     axios
-        .get('/api/employees/')
+        .get('/api/employees/', tokenConfig(getState))
         .then(res => {
             dispatch({
                 type: GET_EMPLOYEES,
                 payload: res.data
             });
-        }).catch(err => console.log(err));
+        }).catch(err => dispatch(returnErrors(err.response.data, err.response.status)));
 };
 
 //DELETE EMPLOYEE
-export const deleteEmployee = (employee_id) => dispatch => {
+export const deleteEmployee = (employee_id) => (dispatch, getState) => {
     axios
-        .delete(`/api/employees/${employee_id}/`)
+        .delete(`/api/employees/${employee_id}/`, tokenConfig(getState))
         .then(res => {
             dispatch(createMessage({ employeeDeleted: "Employee Deleted!"}));
             dispatch({
@@ -29,23 +30,16 @@ export const deleteEmployee = (employee_id) => dispatch => {
 };
 
 //ADD EMPLOYEE
-export const addEmployee = (employee) => dispatch => {
-    console.log(axios
-        .post('/api/employees/', employee)
+export const addEmployee = (employee) => (dispatch, getState) => {
+    const body = JSON.stringify(employee);
+
+    axios
+        .post('/api/employees/', body, tokenConfig(getState))
         .then(res => {
             dispatch(createMessage({ employeeAdded: "Employee Added!"}));
             dispatch({
                 type: ADD_EMPLOYEE,
                 payload: res.data
             })
-        }).catch(err => {
-            const errors = {
-                msg: err.response.data,
-                status: err.response.status
-            };
-            dispatch({
-                type: GET_ERRORS,
-                payload: errors
-            });
-         })
-)};
+        }).catch(err => dispatch(returnErrors(err.response.data, err.response.status)))
+    };

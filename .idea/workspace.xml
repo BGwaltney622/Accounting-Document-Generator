@@ -2,36 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92e787b6-66da-4edd-810d-4a019f2c2015" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mel_project/frontend/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mel_project/frontend/.idea/frontend.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mel_project/frontend/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mel_project/frontend/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mel_project/frontend/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mel_project/frontend/src/actions/messages.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mel_project/frontend/src/components/Layout/Alerts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mel_project/frontend/src/reducers/errors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mel_project/frontend/src/reducers/messages.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mel_project/frontend/static/frontend/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Mel_Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Mel_Project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mel_project/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/mel_project/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mel_project/employees/Serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/mel_project/employees/Serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mel_project/employees/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/mel_project/employees/api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/employees/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/mel_project/employees/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mel_project/frontend/src/actions/employees.js" beforeDir="false" afterPath="$PROJECT_DIR$/mel_project/frontend/src/actions/employees.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/frontend/src/actions/messages.js" beforeDir="false" afterPath="$PROJECT_DIR$/mel_project/frontend/src/actions/messages.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mel_project/frontend/src/actions/types.js" beforeDir="false" afterPath="$PROJECT_DIR$/mel_project/frontend/src/actions/types.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mel_project/frontend/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/mel_project/frontend/src/components/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mel_project/frontend/src/components/Employees/Form.js" beforeDir="false" afterPath="$PROJECT_DIR$/mel_project/frontend/src/components/Employees/Form.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mel_project/frontend/src/reducers/Employees.js" beforeDir="false" afterPath="$PROJECT_DIR$/mel_project/frontend/src/reducers/Employees.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/frontend/src/components/Layout/Alerts.js" beforeDir="false" afterPath="$PROJECT_DIR$/mel_project/frontend/src/components/Layout/Alerts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/frontend/src/components/Layout/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/mel_project/frontend/src/components/Layout/Header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mel_project/frontend/src/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/mel_project/frontend/src/reducers/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mel_project/frontend/static/frontend/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/mel_project/frontend/static/frontend/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/mel_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mel_project/mel_project/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/mel_project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mel_project/mel_project/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +29,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Python Script" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -124,7 +112,9 @@
       <workItem from="1575051506599" duration="1495000" />
       <workItem from="1575056966775" duration="874000" />
       <workItem from="1575057863897" duration="2538000" />
-      <workItem from="1575060432761" duration="6791000" />
+      <workItem from="1575060432761" duration="7106000" />
+      <workItem from="1575147903478" duration="23599000" />
+      <workItem from="1575239442618" duration="1415000" />
     </task>
     <servers />
   </component>
