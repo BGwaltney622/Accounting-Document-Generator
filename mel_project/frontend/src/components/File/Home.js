@@ -1,13 +1,16 @@
 import React, { Component, Fragment } from 'react';
-import { connect } from 'react-redux';
-import PropTypes from 'prop-types';
-import { addEmployee} from "../../actions/employees";
+import MyDropzone from "./Dropzone";
+
 
 export class Home extends Component {
+
     render() {
         return(
             <Fragment>
-                <h1>Home Page</h1>
+                <div className="container">
+                    <h1>File Input Here!</h1>
+                    <MyDropzone/>
+                </div>
             </Fragment>
         )
     }
