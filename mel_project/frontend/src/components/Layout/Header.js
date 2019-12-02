@@ -22,7 +22,7 @@ export class Header extends Component {
                     </strong>
                 </span>
                 <li className="nav-item">
-                    <button onClick={this.props.logout} className="nav-link btn btn-info btn-sm text-light">Logout</button>
+                    <button onClick={this.props.logout} className="nav-link btn btn-primary btn-sm text-light">Logout</button>
                 </li>
             </ul>
         );
@@ -36,7 +36,7 @@ export class Header extends Component {
                     <Link to="/login" className="nav-link">Login</Link>
                 </li>
             </ul>
-        )
+        );
 
         return(
             <nav className="navbar navbar-expand-sm navbar-light bg-light">
@@ -54,6 +54,11 @@ export class Header extends Component {
                     </button>
                     <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
                         <a className="navbar-brand" href="#">Accounting Generator</a>
+                        <ul className="navbar-nav">
+                            <li className="nav-item">
+                                <a className="nav-link" href="#/manageEmployees">Manage Employees</a>
+                            </li>
+                        </ul>
                         { isAuthenticated ? authLinks : guestLinks}
                     </div>
                 </div>

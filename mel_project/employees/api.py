@@ -20,5 +20,3 @@ class EmployeeViewset(viewsets.ModelViewSet):
 
 
 
-
-

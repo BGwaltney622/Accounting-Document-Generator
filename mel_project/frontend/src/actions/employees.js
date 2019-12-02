@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { GET_EMPLOYEES, DELETE_EMPLOYEE, ADD_EMPLOYEE, GET_ERRORS } from "./types";
+import {GET_EMPLOYEES, DELETE_EMPLOYEE, ADD_EMPLOYEE, UPDATE_EMPLOYEE} from "./types";
 import { createMessage, returnErrors } from "./messages";
 import { tokenConfig } from "./auth";
 
@@ -26,8 +26,8 @@ export const deleteEmployee = (employee_id) => (dispatch, getState) => {
                 type: DELETE_EMPLOYEE,
                 payload: employee_id
             });
-        }).catch(err => console.log(err));
-};
+        }).catch(err => dispatch(returnErrors(err.response.data, err.response.status)))
+    };
 
 //ADD EMPLOYEE
 export const addEmployee = (employee) => (dispatch, getState) => {
@@ -39,6 +39,21 @@ export const addEmployee = (employee) => (dispatch, getState) => {
             dispatch(createMessage({ employeeAdded: "Employee Added!"}));
             dispatch({
                 type: ADD_EMPLOYEE,
+                payload: res.data
+            })
+        }).catch(err => dispatch(returnErrors(err.response.data, err.response.status)))
+    };
+
+// Update Employee
+export const updateEmployee = (employee) => (dispatch, getState) => {
+    const body = JSON.stringify(employee);
+
+    axios
+        .put(`/api/employees/${employee.employee_id}/`, body, tokenConfig(getState))
+        .then(res => {
+            dispatch(createMessage({ employeeUpdated: "Employee Updated!"}));
+            dispatch({
+                type: UPDATE_EMPLOYEE,
                 payload: res.data
             })
         }).catch(err => dispatch(returnErrors(err.response.data, err.response.status)))

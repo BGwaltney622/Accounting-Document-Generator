@@ -1,13 +1,16 @@
-import React, { Component, Fragment } from 'react';
-import { connect } from 'react-redux';
+import React, {Component, Fragment} from 'react';
+import {connect} from 'react-redux';
+import BootstrapTable from 'react-bootstrap-table-next';
+import cellEditFactory from 'react-bootstrap-table2-editor';
 import PropTypes from 'prop-types';
-import { getEmployees, deleteEmployee } from "../../actions/employees";
+import {deleteEmployee, getEmployees, updateEmployee} from "../../actions/employees";
 
 export class Employees extends Component {
     static propTypes = {
         employees: PropTypes.array.isRequired,
         getEmployees: PropTypes.func.isRequired,
         deleteEmployee: PropTypes.func.isRequired,
+        updateEmployee: PropTypes.func.isRequired,
     };
 
     componentDidMount() {
@@ -15,43 +18,75 @@ export class Employees extends Component {
     }
 
     render() {
+        const columns = [{
+            dataField: 'employee_id',
+            text: 'Employee ID',
+            hidden: true
+        },{
+            dataField: 'last_name',
+            text: 'Last Name'
+        },{
+            dataField: 'first_name',
+            text: 'First Name'
+        },{
+            dataField: 'salary',
+            text: 'Salary'
+        },{
+            dataField: 'asn_per',
+            text: 'ASN %'
+        },{
+            dataField: 'twenty_per',
+            text: '20G %'
+        },{
+            dataField: 'fdn_per',
+            text: 'FDN %'
+        },{
+            dataField: 'svc_per',
+            text: 'SVC %'
+        },{
+            dataField: 'ucd_per',
+            text: 'UCD %'
+        },{
+            dataField: 'sp_per',
+            text: 'SP %'
+        },{
+            dataField: 'tv_per',
+            text: 'TV %'
+        },{
+            dataField: 'Delete',
+            text: "Delete",
+            formatter: (rowContent, row) => {
+                return(
+                    <button onClick={this.props.deleteEmployee.bind(this, row.employee_id)} className="btn btn-danger btn-sm">Delete</button>
+                )
+            },
+            editable: false
+        }];
+
+        const defaultSorted = [{
+            dataField: 'last_name',
+            order: 'asc'
+        }];
+
+        let save = null;
+
         return(
             <Fragment>
                 <h2>Employees</h2>
-                <table className="table table-striped">
-                    <thead>
-                        <tr>
-                            <th>First Name</th>
-                            <th>Last Name</th>
-                            <th>Salary</th>
-                            <th>ASN %</th>
-                            <th>20G %</th>
-                            <th>FDN %</th>
-                            <th>SVC %</th>
-                            <th>UCD %</th>
-                            <th>SP %</th>
-                            <th>TV %</th>
-                            <th />
-                        </tr>
-                    </thead>
-                    <tbody>
-                    { this.props.employees.map(employee => (
-                        <tr key={employee.employee_id}>
-                            <td>{employee.first_name}</td>
-                            <td>{employee.last_name}</td>
-                            <td>{employee.salary}</td>
-                            <td>{employee.asn_per}</td>
-                            <td>{employee.twenty_per}</td>
-                            <td>{employee.fdn_per}</td>
-                            <td>{employee.svc_per}</td>
-                            <td>{employee.ucd_per}</td>
-                            <td>{employee.sp_per}</td>
-                            <td>{employee.tv_per}</td>
-                            <td><button onClick={this.props.deleteEmployee.bind(this, employee.employee_id)} className="btn btn-danger btn-sm">Delete</button></td>
-                        </tr>
-                    )) }
-                    </tbody>
-                </table>
+                <BootstrapTable keyField='employee_id'
+                                data={ this.props.employees }
+                                columns={ columns }
+                                defaultSorted={ defaultSorted }
+                                noDataIndication="Table is Empty"
+                                cellEdit={ cellEditFactory({
+                                    mode: 'dbclick',
+                                    beforeSaveCell: () => { save = confirm('Do you want to accept this change?');},
+                                    afterSaveCell: (oldValue, newValue, row, column) => {
+                                        save ? this.props.updateEmployee(row) : null
+                                    },
+                                }) }
+                                striped
+                                hover/>
             </Fragment>
         )
     }
@@ -62,4 +97,8 @@ const mapStateToProps = state => ({
 });
 
 
-export default connect(mapStateToProps, { getEmployees, deleteEmployee })(Employees);
+export default connect(mapStateToProps, { getEmployees, deleteEmployee, updateEmployee })(Employees);
+
+
+//<td><button onClick={console.log("Updating")} className="btn btn-success btn-sm">Update</button></td>
+//<td></td>

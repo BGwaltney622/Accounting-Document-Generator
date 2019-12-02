@@ -31,9 +31,8 @@ export class Alerts extends Component {
         if (message !== prevProps.message) {
             if (message.employeeDeleted) alert.success(message.employeeDeleted);
             if (message.employeeAdded) alert.success(message.employeeAdded);
+            if (message.employeeUpdated) alert.success(message.employeeUpdated);
             if (message.passwordsNotMatch) alert.error(message.passwordsNotMatch);
-
-
         }
     }
 

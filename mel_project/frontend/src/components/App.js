@@ -9,6 +9,7 @@ import Dashboard from './Employees/Dashboard';
 import Alerts from "./Layout/Alerts";
 import Login from "./Accounts/Login";
 import Register from "./Accounts/Register";
+import Home from "./File/Home";
 import PrivateRoute from "./Common/PrivateRoute";
 import { loadUser} from "../actions/auth";
 
@@ -38,7 +39,8 @@ class App extends Component {
                             <Alerts />
                             <div className="container">
                                 <Switch>
-                                    <PrivateRoute exact path={"/"} component={Dashboard} />
+                                    <PrivateRoute exact path={"/"} component={Home} />
+                                    <PrivateRoute exact path={"/manageEmployees"} component={Dashboard} />
                                     <Route exact path={"/register"} component={Register} />
                                     <Route exact path={"/login"} component={Login} />
                                 </Switch>
