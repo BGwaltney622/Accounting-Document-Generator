@@ -3,12 +3,85 @@
   <component name="ChangeListManager">
     <list default="true" id="92e787b6-66da-4edd-810d-4a019f2c2015" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mel_project/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/mel_project/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mel_project/employees/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/mel_project/employees/api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mel_project/frontend/src/components/File/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/mel_project/frontend/src/components/File/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mel_project/frontend/static/frontend/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/mel_project/frontend/static/frontend/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mel_project/mel_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mel_project/mel_project/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mel_project/mel_project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mel_project/mel_project/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/.babelrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/.idea/libraries/R_User_Library.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/.idea/mel_project.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/accounts/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/accounts/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/accounts/api.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/accounts/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/accounts/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/accounts/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/accounts/serializers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/accounts/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/accounts/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/accounts/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/employees/Serializers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/employees/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/employees/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/employees/api.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/employees/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/employees/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/employees/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/employees/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/employees/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/employees/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/files/Serializers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/files/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/files/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/files/api.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/files/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/files/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/files/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/files/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/files/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/files/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/frontend/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/frontend/.idea/frontend.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/frontend/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/frontend/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/frontend/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/frontend/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/frontend/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/frontend/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/frontend/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/frontend/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/frontend/src/actions/auth.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/frontend/src/actions/employees.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/frontend/src/actions/messages.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/frontend/src/actions/types.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/frontend/src/components/Accounts/Login.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/frontend/src/components/Accounts/Register.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/frontend/src/components/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/frontend/src/components/Common/PrivateRoute.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/frontend/src/components/Employees/Dashboard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/frontend/src/components/Employees/Employees.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/frontend/src/components/Employees/Form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/frontend/src/components/File/Home.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/frontend/src/components/Layout/Alerts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/frontend/src/components/Layout/Header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/frontend/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/frontend/src/reducers/Employees.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/frontend/src/reducers/auth.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/frontend/src/reducers/errors.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/frontend/src/reducers/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/frontend/src/reducers/messages.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/frontend/src/store.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/frontend/static/frontend/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/frontend/static/frontend/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/frontend/templates/frontend/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/frontend/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/frontend/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/frontend/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/mel_project/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/mel_project/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/mel_project/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mel_project/mel_project/wsgi.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
@@ -111,6 +184,12 @@
       <workItem from="1575239442618" duration="1832000" />
       <workItem from="1575294951845" duration="26358000" />
       <workItem from="1575323776371" duration="7000" />
+      <workItem from="1575324423743" duration="83000" />
+      <workItem from="1575337806640" duration="1876000" />
+      <workItem from="1575381011160" duration="28883000" />
+      <workItem from="1575592085924" duration="214000" />
+      <workItem from="1575592336940" duration="1619000" />
+      <workItem from="1575904098520" duration="820000" />
     </task>
     <servers />
   </component>
